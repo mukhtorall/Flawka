@@ -1,178 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/main.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav__text">
-                <div class="logo1">
-                    <img src="./img/.png" alt="img">
-                    <a href="#"><span>г. Владивосток,</span></a>
-                    <a href="#"> ул. Пушкинская, 17 А</a>
-                </div>
-                <div class="logo2">
-                    <img src="./img/vektor.png" alt="vektor">
-                    <a href="#">+ 7 808 353 53 35</a>
-                    <a class="a__text" href="#">+ 7 888 888 88 88</a>
-                </div>
-                <div class="logo3">
-                    <img src="./img/vektora.png" alt="vektora">
-                    <a href="#">150 000 руб.</a>
-                </div>
-            </nav>
+      <div class="container">
+        <nav class="nav__text">
+          <div class="logo1">
+            <img src="./img/.png" alt="img" />
+            <a href="#"><span>г. Владивосток,</span></a>
+            <a href="#"> ул. Пушкинская, 17 А</a>
+          </div>
+          <div class="logo2">
+            <img src="./img/vektor.png" alt="vektor" />
+            <a href="#">+ 7 808 353 53 35</a>
+            <a class="a__text" href="#">+ 7 888 888 88 88</a>
+          </div>
+          <div class="logo3">
+            <img src="./img/vektora.png" alt="vektora" />
+            <a href="#">150 000 руб.</a>
+          </div>
+        </nav>
 
-            <!-- nav__text end -->
+        <!-- nav__text end -->
 
-            <nav class="nav__title">
-                <div class="nav__title-text">
-                    <div class="nav__title-menu">
-                        <img src="./img/group6.png" alt="IMG">
-                        <a href="">Меню</a>
-                    </div>
-                    <div class="nav__text-a">
-                        <a href="#">Каталог</a>
-                        <a href="#">Скидки</a>
-                        <a href="#">Отзывы</a>
-                        <a href="#">Контакты</a>
-                    </div>
-                    <div class="nav__title-logo">
-                        <img src="./img/Лого.png" alt="logo">
-                    </div>
-                    <div class="nav__text-label">
-                        <label for="#">
-                            Информация для клиента
-                            <input type="checkbox" placeholder="name">
-                        </label>
-                    </div>
-                    <div class="nav__text-user">
-                        <img src="./img/userpick.png" alt="userpick">
-                        <a href="#">Мои заказы</a>
-                    </div>
-                    <div class="nav__text-pul">
-                        <a href="#">Руб.</a>
-                        <a href="#"><span>Дол.</span> </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <nav class="nav__title">
+          <div class="nav__title-text">
+            <div class="nav__title-menu">
+              <img src="./img/group6.png" alt="IMG" />
+              <a href="">Меню</a>
+            </div>
+            <div class="nav__text-a">
+              <a href="#">Каталог</a>
+              <a href="#">Скидки</a>
+              <a href="#">Отзывы</a>
+              <a href="#">Контакты</a>
+            </div>
+            <div class="nav__title-logo">
+              <img src="./img/Лого.png" alt="logo" />
+            </div>
+            <div class="nav__text-label">
+              <label for="#">
+                Информация для клиента
+                <input type="checkbox" placeholder="name" />
+              </label>
+            </div>
+            <div class="nav__text-user">
+              <img src="./img/userpick.png" alt="userpick" />
+              <a href="#">Мои заказы</a>
+            </div>
+            <div class="nav__text-pul">
+              <a href="#">Руб.</a>
+              <a href="#"><span>Дол.</span> </a>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-        <section class="product" id="product">
-            <div class="container-h product__wrapper">
-                <div class="row" id="hero-image">
-                    <div class="product__image" flashtext="Новинка">
-                        <img src="./img/product-image1).png" alt="">
-                    </div>
-                    <div class="product__subimage">
-                        <img src="./img/Rectangle 6.2.png" alt="">
-                        <img src="./img/Rectangle 19.png" alt="">
-                        <img src="./img/Rectangle 19.1.png" alt="">
-                        <img src="./img/Rectangle 19.2.png" alt="">
-                        <img src="./img/Rectangle 19.3.png" alt="">
-                    </div>
-                </div>
-                <div class="row content-hero">
-                    <h1 class="content-hero__title">Букет из разноцветных роз</h1>
-                    <h3 class="content-hero__size">Размер:</h3>
-                    <div class="content-hero__sizeForm">
-                        <label class="choicewrap">
-                            <input type="radio" name="size" checked class="sizeRadio">
-                            <div class="content-hero__radio-box">
-                                <div class="productplan">
-                                    <p class="productplan__title">Малый</p>
-                                    <p class="productplan__price">1 290 руб.</p>
-                                </div>
-                                <div class="product-check">
-                                    <span class="costum-checkbox"></span>
-                                </div>
-                            </div>
-                        </label>
-                        <label class="choicewrap">
-                            <input type="radio" name="size" class="sizeRadio">
-                            <div class="content-hero__radio-box">
-                                <div class="productplan">
-                                    <p class="productplan__title">Малый</p>
-                                    <p class="productplan__price">1 290 руб.</p>
-                                </div>
-                                <div class="product-check">
-                                    <span class="costum-checkbox"></span>
-                                </div>
-                            </div>
-                        </label>
-                        <label class="choicewrap">
-                            <input type="radio" name="size" class="sizeRadio">
-                            <div class="content-hero__radio-box">
-                                <div class="productplan">
-                                    <p class="productplan__title">Малый</p>
-                                    <p class="productplan__price">1 290 руб.</p>
-                                </div>
-                                <div class="product-check">
-                                    <span class="costum-checkbox"></span>
-                                </div>
-                            </div>
-                        </label>
-
-
-                    </div>
-                    <div class="info">
-                        <div class="info__header">
-                            <span>Состав</span>
-                            <span>Доставка и оплата</span>
-                        </div>
-                        <div class="info__description">
-                            <ul>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                                <li>Гербера Оранжевая — 11 шт.</li>
-                            </ul>
-                            <div class="oyna"></div>
-                        </div>
-
-                    </div>
-                    <div class="product-footer">
-                        <div class="counter">
-                            <div class="decrement counter-btn">
-                                <span>-</span>
-                            </div>
-                            <span class="counter-count" increment="+" decrement='-'>1 шт.</span>
-                            <div class="increment counter-btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                        <div class="cart">
-                            <div class="cart__price">
-                                <p>Сумма:</p>
-                                <p>100 000 руб.</p>
-                            </div>
-                            <div class="cart__button">
-                                <button class="btn">
-                                    <img src="./img/bag.svg">
-                                    <span>В корзину</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+      <section class="product" id="product">
+        <div class="container-h product__wrapper">
+          <div class="row" id="hero-image">
+            <div class="product__image" flashtext="Новинка">
+              <img src="./img/product-image1).png" alt="" />
             </div>
-        </section>
+            <div class="product__subimage">
+              <img src="./img/Rectangle 6.2.png" alt="" />
+              <img src="./img/Rectangle 19.png" alt="" />
+              <img src="./img/Rectangle 19.1.png" alt="" />
+              <img src="./img/Rectangle 19.2.png" alt="" />
+              <img src="./img/Rectangle 19.3.png" alt="" />
+            </div>
+          </div>
+          <div class="row content-hero">
+            <h1 class="content-hero__title">Букет из разноцветных роз</h1>
+            <h3 class="content-hero__size">Размер:</h3>
+            <div class="content-hero__sizeForm">
+              <label class="choicewrap">
+                <input type="radio" name="size" checked class="sizeRadio" />
+                <div class="content-hero__radio-box">
+                  <div class="productplan">
+                    <p class="productplan__title">Малый</p>
+                    <p class="productplan__price">1 290 руб.</p>
+                  </div>
+                  <div class="product-check">
+                    <span class="costum-checkbox"></span>
+                  </div>
+                </div>
+              </label>
+              <label class="choicewrap">
+                <input type="radio" name="size" class="sizeRadio" />
+                <div class="content-hero__radio-box">
+                  <div class="productplan">
+                    <p class="productplan__title">Малый</p>
+                    <p class="productplan__price">1 290 руб.</p>
+                  </div>
+                  <div class="product-check">
+                    <span class="costum-checkbox"></span>
+                  </div>
+                </div>
+              </label>
+              <label class="choicewrap">
+                <input type="radio" name="size" class="sizeRadio" />
+                <div class="content-hero__radio-box">
+                  <div class="productplan">
+                    <p class="productplan__title">Малый</p>
+                    <p class="productplan__price">1 290 руб.</p>
+                  </div>
+                  <div class="product-check">
+                    <span class="costum-checkbox"></span>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="info">
+              <div class="info__header">
+                <span>Состав</span>
+                <span>Доставка и оплата</span>
+              </div>
+              <div class="info__description">
+                <ul>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                  <li>Гербера Оранжевая — 11 шт.</li>
+                </ul>
+                <div class="oyna"></div>
+              </div>
+            </div>
+            <div class="product-footer">
+              <div class="counter">
+                <div class="decrement counter-btn">
+                  <span>-</span>
+                </div>
+                <span class="counter-count" increment="+" decrement="-"
+                  >1 шт.</span
+                >
+                <div class="increment counter-btn">
+                  <span>+</span>
+                </div>
+              </div>
+              <div class="cart">
+                <div class="cart__price">
+                  <p>Сумма:</p>
+                  <p>100 000 руб.</p>
+                </div>
+                <div class="cart__button">
+                  <button class="btn">
+                    <img src="./img/bag.svg" />
+                    <span>В корзину</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start main section  -->
+      <section class="do-order">
+        <div class="container">
+          <div class="order">
+            <div class="order-title">
+              <h2 class="order-title__content">
+                <span> Дополнить</span> Заказ
+              </h2>
+            </div>
+            <!-- ---------------------------->
+            <div class="order-cards">
+              <div class="order-cards__items">
+                <div class="order-cards__items-img">
+                  <img src="./images/Rectangle 25.png" alt="25" />
+                </div>
+                <div class="order-cards__items-description">
+                  <h5>Шок. конфеты "Лучшей маме"</h5>
+                  <p><span>1200</span>руб.</p>
+                  <div>
+                    <span>-</span> <span>1</span> <span>шт.</span>
+                    <span>+</span>
+                  </div>
+                  <button type="button" class="btn">
+                    <a href="#"> Добавлено </a>
+
+                    <a href="#"> + Добавить </a>
+                  </button>
+                </div>
+              </div>
+              <div class="order-cards__items">
+                <div class="order-cards__items-img">
+                  <img src="./images/quyon.png" alt="quyon" />
+                </div>
+                <div class="order-cards__items-description">
+                  <h5>Шок. конфеты "Лучшей маме"</h5>
+                  <p><span>1200</span>руб.</p>
+                  <div>
+                    <span>-</span> <span>1</span> <span>шт.</span>
+                    <span>+</span>
+                  </div>
+                  <button type="button" class="btn">
+                    <a href="#"> Добавлено </a>
+
+                    <a href="#"> + Добавить </a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="order-cards__items">
+                <div class="order-cards__items-img">
+                  <img src="./images/love.png" alt="love" />
+                </div>
+                <div class="order-cards__items-description">
+                  <h5>Шок. конфеты "Лучшей маме"</h5>
+                  <p><span>1200</span>руб.</p>
+                  <div>
+                    <span>-</span> <span>1</span> <span>шт.</span>
+                    <span>+</span>
+                  </div>
+                  <button type="button" class="btn">
+                    <a href="#"> Добавлено </a>
+
+                    <a href="#"> + Добавить </a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="order-cards__items">
+                <div class="order-cards__items-img">
+                  <img src="./images/ananas.png" alt="ananas" />
+                </div>
+                <div class="order-cards__items-description">
+                  <h5>Шок. конфеты "Лучшей маме"</h5>
+                  <p><span>1200</span>руб.</p>
+                  <div>
+                    <span>-</span> <span>1</span> <span>шт.</span>
+                    <span>+</span>
+                  </div>
+                  <button type="button" class="btn">
+                    <a href="#"> Добавлено </a>
+
+                    <a href="#"> + Добавить </a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="order-cards__items">
+                <div class="order-cards__items-img">
+                  <img src="./images/gul.png" alt="gul" />
+                </div>
+                <div class="order-cards__items-description">
+                  <h5>Шок. конфеты "Лучшей маме"</h5>
+                  <p><span>1200</span>руб.</p>
+                  <div>
+                    <span>-</span> <span>1</span> <span>шт.</span>
+                    <span>+</span>
+                  </div>
+                  <button type="button" class="btn">
+                    <a href="#"> Добавлено </a>
+
+                    <a href="#"> + Добавить </a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="order-cards__items">
+                <div class="order-cards__items-img">
+                  <img src="./images/barig.png" alt="barig" />
+                </div>
+                <div class="order-cards__items-description">
+                  <h5>Шок. конфеты "Лучшей маме"</h5>
+                  <p><span>1200</span>руб.</p>
+                  <div>
+                    <span>-</span> <span>1</span> <span>шт.</span>
+                    <span>+</span>
+                  </div>
+                  <button type="button" class="btn">
+                    <a href="#"> Добавлено </a>
+
+                    <a href="#"> + Добавить </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------- -->
+            <div class="order-pagination">
+              <!-- <nav aria-label="...">
+    <ul class="pagination pagination-sm">
+      <li class="page-item active" aria-current="page"><a class="page-link">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">4</a></li>
+      <li class="page-item"><a class="page-link" href="#">5</a></li>
+  
+   
+   
+    </ul>
+  </nav> -->
+              <nav class="order-pagination__nav">
+                <ul class="order-pagination__nav-list">
+                  <li class="order-pagination__nav-list__items">
+                    <a href="#" class="order-pagination__nav-list__items-link">
+                      1
+                    </a>
+                  </li>
+
+                  <li class="order-pagination__nav-list__items">
+                    <a href="#" class="order-pagination__nav-list__items-link">
+                      2
+                    </a>
+                  </li>
+
+                  <li class="order-pagination__nav-list__items">
+                    <a href="#" class="order-pagination__nav-list__items-link">
+                      3
+                    </a>
+                  </li>
+
+                  <li class="order-pagination__nav-list__items">
+                    <a href="#" class="order-pagination__nav-list__items-link">
+                      4
+                    </a>
+                  </li>
+
+                  <li class="order-pagination__nav-list__items">
+                    <a href="#" class="order-pagination__nav-list__items-link">
+                      5
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <button type="button" class="btn2">
+              <a href="#"> Оформить заказ </a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- /end main section  -->
+
+      <!-- start footer section  -->
+      <footer>
+        <nav class="footer-nav">
+          <div class="container">
+            <ul class="footer-nav_list">
+              <li class="footer-nav__list-items">
+                <a href="#" class="footer-nav__list-items__link"> Каталог </a>
+              </li>
+
+              <li class="footer-nav__list-items">
+                <a href="#" class="footer-nav__list-items__link"> Скидки </a>
+              </li>
+
+              <li class="footer-nav__list-items">
+                <a href="#" class="footer-nav__list-items__link"> Отзывы </a>
+              </li>
+
+              <li class="footer-nav__list-items">
+                <a href="#" class="footer-nav__list-items__link"> Контакты </a>
+              </li>
+
+              <li class="footer-nav__list-items">
+                <div class="dropdown">
+                  <a
+                    class="footer-nav__list-items__link text-white dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Информация для клиента
+                  </a>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="footer-nav__list-items">
+                <a href="#" class="footer-nav__list-items__link"> Оферта </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="footer-contents">
+            <ul>
+              <h4>Контактная информация</h4>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> г. Владивосток, ул.
+                Пушкинская, 17
+              </li>
+              <li><i class="fa-solid fa-phone"></i> + 7 888 888 88 88</li>
+              <li><i class="fa-solid fa-phone"></i> + 7 888 888 88 88</li>
+              <li>
+                <i class="fa-regular fa-clock"></i> Режим работы:Пн-Сб с 8:00 до
+                22:00
+              </li>
+            </ul>
+            <ul>
+              <h4>Для посетителей</h4>
+              <li>Оформление заказа</li>
+              <li>Вопросы и ответы</li>
+              <li>Изменение или отмена заказа</li>
+              <li>Способы доставки и оплаты</li>
+            </ul>
+
+            <form class="footer-form">
+              <h4>Возникли вопросы? Свяжитесь с нами</h4>
+              <address>
+                <div>
+                  <label for="name">Ваше имя</label>
+                  <input type="text" class="forms" name="name" id="name" />
+                </div>
+                <div>
+                  <label for="number">Моб. номер</label>
+                  <input
+                    type="number"
+                    class="forms"
+                    name="number"
+                    id="number" />
+                </div>
+              </address>
+
+              <div>
+                <label for="comment"></label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  cols="30"
+                  rows="10"></textarea>
+              </div>
+              <button type="button" class="btn3">
+                <a href="#"> Отправить </a>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="container">
+          <div class="footer-bottom__text">
+            <p>@</p>
+            <p>2019 Цветочная лавка.</p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- start footer section  -->
+      <!-- bootstrap js  -->
     </main>
-
-</body>
-
+  </body>
 </html>
