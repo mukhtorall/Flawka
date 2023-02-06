@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -36,32 +38,141 @@
                         <a href="">Меню</a>
                     </div>
                     <div class="nav__text-a">
-                    <a href="#">Каталог</a>
-                    <a href="#">Скидки</a>
-                    <a href="#">Отзывы</a>
-                    <a href="#">Контакты</a>
-                </div>
+                        <a href="#">Каталог</a>
+                        <a href="#">Скидки</a>
+                        <a href="#">Отзывы</a>
+                        <a href="#">Контакты</a>
+                    </div>
                     <div class="nav__title-logo">
-                    <img src="./img/Лого.png" alt="logo">
-                </div>
-                <div class="nav__text-label">    
-                <label for="#">
-                        Информация для клиента
-                        <input type="checkbox" placeholder="name">
-                    </label></div>
+                        <img src="./img/Лого.png" alt="logo">
+                    </div>
+                    <div class="nav__text-label">
+                        <label for="#">
+                            Информация для клиента
+                            <input type="checkbox" placeholder="name">
+                        </label>
+                    </div>
                     <div class="nav__text-user">
-                    <img src="./img/userpick.png" alt="userpick">
-                    <a href="#">Мои заказы</a>
-                </div>
-                <div class="nav__text-pul">
-                    <a href="#">Руб.</a>
-                    <a href="#"><span>Дол.</span> </a>
-                </div>
+                        <img src="./img/userpick.png" alt="userpick">
+                        <a href="#">Мои заказы</a>
+                    </div>
+                    <div class="nav__text-pul">
+                        <a href="#">Руб.</a>
+                        <a href="#"><span>Дол.</span> </a>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
+    <main>
+        <section class="product" id="product">
+            <div class="container-h product__wrapper">
+                <div class="row" id="hero-image">
+                    <div class="product__image" flashtext="Новинка">
+                        <img src="./img/product-image1).png" alt="">
+                    </div>
+                    <div class="product__subimage">
+                        <img src="./img/Rectangle 6.2.png" alt="">
+                        <img src="./img/Rectangle 19.png" alt="">
+                        <img src="./img/Rectangle 19.1.png" alt="">
+                        <img src="./img/Rectangle 19.2.png" alt="">
+                        <img src="./img/Rectangle 19.3.png" alt="">
+                    </div>
+                </div>
+                <div class="row content-hero">
+                    <h1 class="content-hero__title">Букет из разноцветных роз</h1>
+                    <h3 class="content-hero__size">Размер:</h3>
+                    <div class="content-hero__sizeForm">
+                        <label class="choicewrap">
+                            <input type="radio" name="size" checked class="sizeRadio">
+                            <div class="content-hero__radio-box">
+                                <div class="productplan">
+                                    <p class="productplan__title">Малый</p>
+                                    <p class="productplan__price">1 290 руб.</p>
+                                </div>
+                                <div class="product-check">
+                                    <span class="costum-checkbox"></span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="choicewrap">
+                            <input type="radio" name="size" class="sizeRadio">
+                            <div class="content-hero__radio-box">
+                                <div class="productplan">
+                                    <p class="productplan__title">Малый</p>
+                                    <p class="productplan__price">1 290 руб.</p>
+                                </div>
+                                <div class="product-check">
+                                    <span class="costum-checkbox"></span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="choicewrap">
+                            <input type="radio" name="size" class="sizeRadio">
+                            <div class="content-hero__radio-box">
+                                <div class="productplan">
+                                    <p class="productplan__title">Малый</p>
+                                    <p class="productplan__price">1 290 руб.</p>
+                                </div>
+                                <div class="product-check">
+                                    <span class="costum-checkbox"></span>
+                                </div>
+                            </div>
+                        </label>
 
+
+                    </div>
+                    <div class="info">
+                        <div class="info__header">
+                            <span>Состав</span>
+                            <span>Доставка и оплата</span>
+                        </div>
+                        <div class="info__description">
+                            <ul>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                                <li>Гербера Оранжевая — 11 шт.</li>
+                            </ul>
+                            <div class="oyna"></div>
+                        </div>
+
+                    </div>
+                    <div class="product-footer">
+                        <div class="counter">
+                            <div class="decrement counter-btn">
+                                <span>-</span>
+                            </div>
+                            <span class="counter-count" increment="+" decrement='-'>1 шт.</span>
+                            <div class="increment counter-btn">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <div class="cart">
+                            <div class="cart__price">
+                                <p>Сумма:</p>
+                                <p>100 000 руб.</p>
+                            </div>
+                            <div class="cart__button">
+                                <button class="btn">
+                                    <img src="./img/bag.svg">
+                                    <span>В корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
 
 </body>
+
 </html>
